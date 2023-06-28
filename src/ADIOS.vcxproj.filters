@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{7241bfe6-0512-4c85-86ae-85be62470e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{9f0eeeed-f287-43b5-98fb-8c812eb9dc2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

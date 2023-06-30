@@ -9,7 +9,7 @@ using namespace std;
 ///#define HEIGHT debug
 
 typedef	unsigned int			u32;
-typedef	__int32					i32;
+typedef	__int32					  i32;
 typedef	unsigned char			Uint8;
 
 

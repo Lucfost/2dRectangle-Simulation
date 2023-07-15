@@ -8,11 +8,11 @@ Simula::Simula()
 void Simula::generateRectangle()
 {
 	m_rectangle.setSize(40.f, 40.f);
+	m_rectangle.setVelocityX(8 * sin(180 / PI));
+	m_rectangle.setVelocityY(8 * sin(90 / PI));
 	m_rectangle.setRGBA(233, 116, 81, 255);
 	m_rectangle.setfRGBA(134, 48, 197, 255);
 	m_rectangle.setThickness(2.0f);
-	m_rectangle.setVelocityX(8 * sin(180 / PI));
-	m_rectangle.setVelocityY(8 * sin(90 / PI));
 
 
 	m1_rectangle.setSize(40.0f, 40.f);

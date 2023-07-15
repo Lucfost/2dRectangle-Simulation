@@ -21,9 +21,9 @@ public:
   
 private:
     sf::RenderWindow    m_window;
+    sf::String          m_title;
     u32                 m_width;
     u32                 m_height;
     u32                 m_bpp;
     u32                 m_style;
-    sf::String          m_title;
 };
